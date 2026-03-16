@@ -48,15 +48,11 @@ getAlphaVaultInfo(
 const app = express();
 
 const allowedOrigins = [
-  'https://critters.quest',
-  'https://blinks.critters.quest',
-  'https://genesis-quest.critters.quest',
-  'https://blind-box-claim.critters.quest',
-  'https://localhost:3001',
-  'https://localhost:3075',
-  'http://localhost:3000',
-  'http://localhost:3001',
-  'http://localhost:3075'
+  "https://localhost:3001",
+  "https://localhost:3075",
+  "http://localhost:3000",
+  "http://localhost:3001",
+  "http://localhost:3075",
 ];
 
 // CORS
